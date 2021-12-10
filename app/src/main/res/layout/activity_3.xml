@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity3">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="Это третий экран"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#FF03DAC5"
+        android:textStyle="bold"></TextView>
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="400dp"
+        android:layout_height="500dp"
+        android:scaleType="centerInside"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="0dp"
+        app:srcCompat="@drawable/magazinepic_13_2_3_001_bigpicture_13_4" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Спасибо за внимание"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#FF3700B3"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="0dp"
+        android:textStyle="bold"></TextView>
+</TableLayout>

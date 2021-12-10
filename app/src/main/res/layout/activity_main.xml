@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <Button
+        android:id="@+id/btnActTwo"
+        android:layout_width="match_parent"
+        android:layout_height="107dp"
+        android:layout_marginTop="550dp"
+        android:text="Вперед на второй экран"
+        android:textSize="30dp"></Button>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginRight="6dip"
+        android:background="#FF3700B3"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/magazinepic_13_2_3_001_bigpicture_13_5" />
+
+    <TextView
+        android:id="@+id/textView0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:text="Здравствуйте"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textColor="#4b0082"
+        android:textStyle="bold"></TextView>
+
+</FrameLayout>
+
